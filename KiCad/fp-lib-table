@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Attiny programmer shield")(type "KiCad")(uri "$(KIPRJMOD)/Attiny programmer shield.pretty")(options "")(descr ""))
+)

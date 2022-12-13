@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\randy\OneDrive\Projects\ATtinyISPprogrammerShield\KiCad\Attiny programmer shield.kicad_sch</source>
+    <date>12/2/2022 1:56:52 PM</date>
+    <tool>Eeschema (6.0.9)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Attiny programmer shield.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10µF/16V</value>
+      <footprint>Attiny programmer shield:E2,5-6E</footprint>
+      <libsource lib="Attiny programmer shield-eagle-import" part="CPOL-EUE2,5-6E" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Attiny programmer shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd639ec6-36c4-4b65-bdc8-61e64a8acb43</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Attiny programmer shield:C050-025X075</footprint>
+      <libsource lib="Attiny programmer shield-eagle-import" part="C-EU050-025X075" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Attiny programmer shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f27065df-1b61-4703-af65-37e3f5064167</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Attiny programmer shield:C050-025X075</footprint>
+      <libsource lib="Attiny programmer shield-eagle-import" part="C-EU050-025X075" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Attiny programmer shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec1a0faf-3528-463b-a6aa-37056b80b9db</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>Yellow - programming</value>
+      <footprint>Attiny programmer shield:LED3MM</footprint>
+      <libsource lib="Attiny programmer shield-eagle-import" part="LED3MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Attiny programmer shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04d46592-9d12-41a3-b3c4-d15e47e0a0fb</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>Red - error</value>
+      <footprint>Attiny programmer shield:LED3MM</footprint>
+      <libsource lib="Attiny programmer shield-eagle-import" part="LED3MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Attiny programmer shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7878482a-6534-4f10-abdf-8f9528f5b313</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>Green - ISP running</value>
+      <footprint>Attiny programmer shield:LED3MM</footprint>
+      <libsource lib="Attiny programmer shield-eagle-import" part="LED3MM" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Attiny programmer shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f1ef2f8-020d-4c6d-94ac-e670d9029dd0</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>attiny10/11/12/13/15/22/25/45/85</value>
+      <footprint>Attiny programmer shield:DIL08</footprint>
+      <libsource lib="Attiny programmer shield-eagle-import" part="TINY138P3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Attiny programmer shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39588931-7bf7-4b4b-886c-69c55c40c63e</tstamps>
+    </comp>
+    <comp ref="IC2">
+      <value>attiny24/44/84</value>
+      <footprint>Attiny programmer shield:DIL14</footprint>
+      <libsource lib="Attiny programmer shield-eagle-import" part="TINY24{slash}44{slash}84-PU" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Attiny programmer shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36bb56fa-f71d-49fc-a443-12718e0edf04</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Attiny programmer shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2b59ffda-f920-4d43-9512-59b86a469a4e</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Attiny programmer shield:0207_7</footprint>
+      <libsource lib="Attiny programmer shield-eagle-import" part="R-EU_0207{slash}7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Attiny programmer shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25ef666a-e193-4d9a-b853-852adcc24424</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>270</value>
+      <footprint>Attiny programmer shield:0204_5</footprint>
+      <libsource lib="Attiny programmer shield-eagle-import" part="R-EU_0204{slash}5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Attiny programmer shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a29abe5f-0c69-44be-952a-7461453626ba</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>270</value>
+      <footprint>Attiny programmer shield:0204_5</footprint>
+      <libsource lib="Attiny programmer shield-eagle-import" part="R-EU_0204{slash}5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Attiny programmer shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24d33a09-6542-4e86-be18-dec05c6d848c</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>270</value>
+      <footprint>Attiny programmer shield:0204_5</footprint>
+      <libsource lib="Attiny programmer shield-eagle-import" part="R-EU_0204{slash}5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Attiny programmer shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2def989f-4e06-4003-8c7c-fd1b21edbe14</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>Reset</value>
+      <footprint>Attiny programmer shield:B3F-10XX</footprint>
+      <libsource lib="Attiny programmer shield-eagle-import" part="10-XX" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Attiny programmer shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3097d190-8366-4837-bd98-30333936b76c</tstamps>
+    </comp>
+    <comp ref="U$1">
+      <value>Arduino Uno</value>
+      <footprint>Attiny programmer shield:ARDUINO-R3</footprint>
+      <libsource lib="Attiny programmer shield-eagle-import" part="ARDUINO-UNO_R3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Attiny programmer shield.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c469253-bea7-4dd0-9182-01a05d066ffb</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Attiny programmer shield-eagle-import" part="10-XX">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">10-XX</field>
+        <field name="Footprint">Attiny programmer shield:B3F-10XX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S1" type="passive"/>
+        <pin num="3" name="P" type="passive"/>
+        <pin num="4" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Attiny programmer shield-eagle-import" part="ARDUINO-UNO_R3">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ARDUINO-UNO_R3</field>
+        <field name="Footprint">Attiny programmer shield:ARDUINO-R3</field>
+      </fields>
+      <pins>
+        <pin num="3V" name="3V3" type="power_in"/>
+        <pin num="5V" name="5V" type="power_in"/>
+        <pin num="A0" name="A0" type="bidirectional"/>
+        <pin num="A1" name="A1" type="bidirectional"/>
+        <pin num="A2" name="A2" type="bidirectional"/>
+        <pin num="A3" name="A3" type="bidirectional"/>
+        <pin num="A4" name="A4/SDA" type="bidirectional"/>
+        <pin num="A5" name="A5/SCL" type="bidirectional"/>
+        <pin num="AREF" name="AREF" type="bidirectional"/>
+        <pin num="D0" name="RX/D0" type="bidirectional"/>
+        <pin num="D1" name="TX/D1" type="bidirectional"/>
+        <pin num="D2" name="D2" type="bidirectional"/>
+        <pin num="D3" name="D3" type="bidirectional"/>
+        <pin num="D4" name="D4" type="bidirectional"/>
+        <pin num="D5" name="D5" type="bidirectional"/>
+        <pin num="D6" name="D6" type="bidirectional"/>
+        <pin num="D7" name="D7" type="bidirectional"/>
+        <pin num="D8" name="D8" type="bidirectional"/>
+        <pin num="D9" name="D9" type="bidirectional"/>
+        <pin num="D10" name="D10" type="bidirectional"/>
+        <pin num="D11" name="D11" type="bidirectional"/>
+        <pin num="D12" name="D12" type="bidirectional"/>
+        <pin num="D13" name="D13" type="bidirectional"/>
+        <pin num="GND" name="GND" type="power_in"/>
+        <pin num="GND1" name="GND1" type="power_in"/>
+        <pin num="GND2" name="GND2" type="power_in"/>
+        <pin num="IOREF" name="IOREF" type="output"/>
+        <pin num="RESERVED" name="RESERVED" type="no_connect"/>
+        <pin num="RESET" name="RESET" type="bidirectional"/>
+        <pin num="SCL" name="SCL" type="bidirectional"/>
+        <pin num="SDA" name="SDA" type="bidirectional"/>
+        <pin num="VIN" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Attiny programmer shield-eagle-import" part="C-EU050-025X075">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-EU050-025X075</field>
+        <field name="Footprint">Attiny programmer shield:C050-025X075</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Attiny programmer shield-eagle-import" part="CPOL-EUE2,5-6E">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CPOL-EUE2,5-6E</field>
+        <field name="Footprint">Attiny programmer shield:E2,5-6E</field>
+      </fields>
+      <pins>
+        <pin num="+" name="+" type="passive"/>
+        <pin num="-" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Attiny programmer shield-eagle-import" part="LED3MM">
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">LED3MM</field>
+        <field name="Footprint">Attiny programmer shield:LED3MM</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="K" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Attiny programmer shield-eagle-import" part="R-EU_0204{slash}5">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-EU_0204{slash}5</field>
+        <field name="Footprint">Attiny programmer shield:0204_5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Attiny programmer shield-eagle-import" part="R-EU_0207{slash}7">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-EU_0207{slash}7</field>
+        <field name="Footprint">Attiny programmer shield:0207_7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Attiny programmer shield-eagle-import" part="TINY138P3">
+      <fields>
+        <field name="Value">TINY138P3</field>
+        <field name="Footprint">Attiny programmer shield:DIL08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="(RESET)PB5" type="bidirectional"/>
+        <pin num="2" name="(ADC3)PB3" type="bidirectional"/>
+        <pin num="3" name="(ADC2)PB4" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="(MOSI)PB0" type="bidirectional"/>
+        <pin num="6" name="(MISO)PB1" type="bidirectional"/>
+        <pin num="7" name="(SCK)PB2" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Attiny programmer shield-eagle-import" part="TINY24{slash}44{slash}84-PU">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TINY24{slash}44{slash}84-PU</field>
+        <field name="Footprint">Attiny programmer shield:DIL14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="(PCINT8/XTAL1/CLKI)PB0" type="bidirectional"/>
+        <pin num="3" name="(PCINT9/XTAL2)PB1" type="bidirectional"/>
+        <pin num="4" name="(PCINT11/RESET/DW)PB3" type="bidirectional"/>
+        <pin num="5" name="(PCINT10/INT0/OC0A/CKOUT)PB2" type="bidirectional"/>
+        <pin num="6" name="(PCINT7/ICP/OC0B/ADC7)PA7" type="bidirectional"/>
+        <pin num="7" name="(PCINT6/OC1A/SDA/MOSI/ADC6)PA6" type="bidirectional"/>
+        <pin num="8" name="(PCINT5/OC1B/MISO/DO/ADC5)PA5" type="bidirectional"/>
+        <pin num="9" name="(PCINT4/T1/SCL/USCK/ADC4)PA4" type="bidirectional"/>
+        <pin num="10" name="(PCINT3/T0/ADC3)PA3" type="bidirectional"/>
+        <pin num="11" name="(PCINT2/AIN1/ADC2)PA2" type="bidirectional"/>
+        <pin num="12" name="(PCINT1/AIN0/ADC1)PA1" type="bidirectional"/>
+        <pin num="13" name="(PCINT0/AREF/ADC0)PA0" type="bidirectional"/>
+        <pin num="14" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Attiny programmer shield-eagle-import">
+      <uri>C:\Users\randy\OneDrive\Projects\ATtinyISPprogrammerShield\KiCad/Attiny programmer shield-eagle-import.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+UB">
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="IC1" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="IC2" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U$1" pin="5V" pinfunction="5V" pintype="power_in"/>
+    </net>
+    <net code="2" name="/MISO">
+      <node ref="IC1" pin="6" pinfunction="(MISO)PB1" pintype="bidirectional"/>
+      <node ref="IC2" pin="8" pinfunction="(PCINT5/OC1B/MISO/DO/ADC5)PA5" pintype="bidirectional"/>
+      <node ref="U$1" pin="D12" pinfunction="D12" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/MOSI">
+      <node ref="IC1" pin="5" pinfunction="(MOSI)PB0" pintype="bidirectional"/>
+      <node ref="IC2" pin="7" pinfunction="(PCINT6/OC1A/SDA/MOSI/ADC6)PA6" pintype="bidirectional"/>
+      <node ref="U$1" pin="D11" pinfunction="D11" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/RESET">
+      <node ref="IC1" pin="1" pinfunction="(RESET)PB5" pintype="bidirectional"/>
+      <node ref="IC2" pin="4" pinfunction="(PCINT11/RESET/DW)PB3" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="S1" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="S1" pin="2" pinfunction="S1" pintype="passive"/>
+      <node ref="U$1" pin="D10" pinfunction="D10" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/SCK">
+      <node ref="IC1" pin="7" pinfunction="(SCK)PB2" pintype="bidirectional"/>
+      <node ref="IC2" pin="9" pinfunction="(PCINT4/T1/SCL/USCK/ADC4)PA4" pintype="bidirectional"/>
+      <node ref="U$1" pin="D13" pinfunction="D13" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="3V3">
+      <node ref="U$1" pin="3V" pinfunction="3V3" pintype="power_in"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="C1" pin="-" pinfunction="-" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D1" pin="K" pinfunction="C" pintype="passive"/>
+      <node ref="D2" pin="K" pinfunction="C" pintype="passive"/>
+      <node ref="D3" pin="K" pinfunction="C" pintype="passive"/>
+      <node ref="IC1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="IC2" pin="14" pinfunction="GND" pintype="power_in"/>
+      <node ref="S1" pin="3" pinfunction="P" pintype="passive"/>
+      <node ref="S1" pin="4" pinfunction="P1" pintype="passive"/>
+      <node ref="U$1" pin="GND" pinfunction="GND" pintype="power_in"/>
+      <node ref="U$1" pin="GND1" pinfunction="GND1" pintype="power_in"/>
+      <node ref="U$1" pin="GND2" pinfunction="GND2" pintype="power_in"/>
+    </net>
+    <net code="8" name="Net-(C1-Pad+)">
+      <node ref="C1" pin="+" pinfunction="+" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D1-PadA)">
+      <node ref="D1" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D2-PadA)">
+      <node ref="D2" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D3-PadA)">
+      <node ref="D3" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U$1" pin="RESET" pinfunction="RESET" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U$1" pin="D7" pinfunction="D7" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U$1" pin="D8" pinfunction="D8" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U$1" pin="D9" pinfunction="D9" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="VIN">
+      <node ref="U$1" pin="VIN" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="17" name="unconnected-(IC1-Pad2)">
+      <node ref="IC1" pin="2" pinfunction="(ADC3)PB3" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="unconnected-(IC1-Pad3)">
+      <node ref="IC1" pin="3" pinfunction="(ADC2)PB4" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="unconnected-(IC2-Pad2)">
+      <node ref="IC2" pin="2" pinfunction="(PCINT8/XTAL1/CLKI)PB0" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="unconnected-(IC2-Pad3)">
+      <node ref="IC2" pin="3" pinfunction="(PCINT9/XTAL2)PB1" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="unconnected-(IC2-Pad5)">
+      <node ref="IC2" pin="5" pinfunction="(PCINT10/INT0/OC0A/CKOUT)PB2" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="unconnected-(IC2-Pad6)">
+      <node ref="IC2" pin="6" pinfunction="(PCINT7/ICP/OC0B/ADC7)PA7" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="unconnected-(IC2-Pad10)">
+      <node ref="IC2" pin="10" pinfunction="(PCINT3/T0/ADC3)PA3" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="unconnected-(IC2-Pad11)">
+      <node ref="IC2" pin="11" pinfunction="(PCINT2/AIN1/ADC2)PA2" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="unconnected-(IC2-Pad12)">
+      <node ref="IC2" pin="12" pinfunction="(PCINT1/AIN0/ADC1)PA1" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="unconnected-(IC2-Pad13)">
+      <node ref="IC2" pin="13" pinfunction="(PCINT0/AREF/ADC0)PA0" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="unconnected-(U$1-PadA0)">
+      <node ref="U$1" pin="A0" pinfunction="A0" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="unconnected-(U$1-PadA1)">
+      <node ref="U$1" pin="A1" pinfunction="A1" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="unconnected-(U$1-PadA2)">
+      <node ref="U$1" pin="A2" pinfunction="A2" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="unconnected-(U$1-PadA3)">
+      <node ref="U$1" pin="A3" pinfunction="A3" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="unconnected-(U$1-PadA4)">
+      <node ref="U$1" pin="A4" pinfunction="A4/SDA" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="unconnected-(U$1-PadA5)">
+      <node ref="U$1" pin="A5" pinfunction="A5/SCL" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="unconnected-(U$1-PadAREF)">
+      <node ref="U$1" pin="AREF" pinfunction="AREF" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="unconnected-(U$1-PadD0)">
+      <node ref="U$1" pin="D0" pinfunction="RX/D0" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="unconnected-(U$1-PadD1)">
+      <node ref="U$1" pin="D1" pinfunction="TX/D1" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="unconnected-(U$1-PadD2)">
+      <node ref="U$1" pin="D2" pinfunction="D2" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="unconnected-(U$1-PadD3)">
+      <node ref="U$1" pin="D3" pinfunction="D3" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="unconnected-(U$1-PadD4)">
+      <node ref="U$1" pin="D4" pinfunction="D4" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="unconnected-(U$1-PadD5)">
+      <node ref="U$1" pin="D5" pinfunction="D5" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="unconnected-(U$1-PadD6)">
+      <node ref="U$1" pin="D6" pinfunction="D6" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="unconnected-(U$1-PadIOREF)">
+      <node ref="U$1" pin="IOREF" pinfunction="IOREF" pintype="output"/>
+    </net>
+    <net code="42" name="unconnected-(U$1-PadRESERVED)">
+      <node ref="U$1" pin="RESERVED" pinfunction="RESERVED" pintype="no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U$1-PadSCL)">
+      <node ref="U$1" pin="SCL" pinfunction="SCL" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="unconnected-(U$1-PadSDA)">
+      <node ref="U$1" pin="SDA" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>
